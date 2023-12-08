@@ -25,6 +25,24 @@ if __name__ == '__main__':
     
 """
 
+
+ <table border="1">
+        <tr>
+            <th>No</th>
+            <th>Adı</th>
+            <th>Soyadı</th>
+            <th>Vize</th>
+            <th>Final</th>
+        </tr>
+        <tr>
+            <td>224526007</td>
+            <td>Nuhcan</td>
+            <td>ATAR</td>
+            <td>90</td>
+            <td>90</td>
+        </tr>
+    </table>
+
 http://localhost:5000
     
  * Serving Flask app 'flaskilkproje' # proje adı
