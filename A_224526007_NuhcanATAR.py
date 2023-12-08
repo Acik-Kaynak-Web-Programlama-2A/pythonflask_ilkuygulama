@@ -6,7 +6,8 @@ Created on Fri Dec  1 09:12:02 2023
 """
 
 # paket içe aktarma
-from flask import Flask
+from flask import Flask, render_template
+
 
 # flask uygulama oluşturma başlatma
 app = Flask(__name__)
@@ -15,7 +16,7 @@ app = Flask(__name__)
 @app.route('/')
 def anasayfa():
     # tarayıcıda görüntülenecek içerik
-    return "<font color='red'><b><i>Merhaba Dünya</i></b></font>"
+    return render_template("index.html")
 
 # proje çalıştırıldıysa
 if __name__ == '__main__':
